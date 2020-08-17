@@ -20,5 +20,10 @@ public class ArrayDemo2 {
             System.out.println(d1);
         }
 
+
+
+
+
+
     }
 }
