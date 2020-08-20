@@ -34,8 +34,6 @@ public class StringToDate {
 
         String dateStr2= "2016 - 06 - 23 | 8:34:23" ;//--->Homework
 
-
-
         String dateStr3= "Thursday 2016/06/23";//----> EEEE yyyy/MM/dd
 
         SimpleDateFormat sd3 = new SimpleDateFormat("EEEE yyyy/MM/dd");
