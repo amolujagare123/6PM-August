@@ -1,6 +1,10 @@
 package pack1;
 
 import ClassesAndConstructors.ClassDemo;
+import FinalAndStatic.StaticMethodDemo;
+
+import static FinalAndStatic.StaticMethodDemo.*;
+//import static FinalAndStatic.StaticMethodDemo.setCollegeName;
 
 public class Java1 extends Java2{
 
@@ -20,10 +24,14 @@ public class Java1 extends Java2{
 
         public static void main(String[] args) {
 
-            Java1 ob = new Java1();
+          /*  Java1 ob = new Java1();
             ob.a1 =10;
             ob.c1='h';
 
-            ob.a2=10;
+            ob.a2=10;*/
+
+            setCollegeName("myCollege");
+
+            System.out.println(college);
     }
 }
